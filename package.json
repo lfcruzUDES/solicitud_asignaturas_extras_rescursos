@@ -1,0 +1,22 @@
+{
+  "name": "solicitud_asignaturas_extras_rescursos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfcruzUDES/solicitud_asignaturas_extras_rescursos.git"
+  },
+  "author": "Luis Fernando Cruz Carrillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lfcruzUDES/solicitud_asignaturas_extras_rescursos/issues"
+  },
+  "homepage": "https://github.com/lfcruzUDES/solicitud_asignaturas_extras_rescursos#readme",
+  "dependencies": {
+    "@types/google-apps-script": "^1.0.14"
+  }
+}
