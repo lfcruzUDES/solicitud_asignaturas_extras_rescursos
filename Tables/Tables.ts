@@ -22,6 +22,7 @@ namespace TABLES {
         { name: 'datetime', data_type: 'datetime', verbose_name: 'Marca temporal' },
         { name: 'email', data_type: 'string', verbose_name: 'Dirección de correo electrónico' },
         { name: 'name', data_type: 'string', verbose_name: 'Nombre completo del alumno:' },
+        { name: 'enrollment', data_type: 'string', verbose_name: 'Matrícula:' },
         { name: 'career', data_type: 'string', verbose_name: 'Matrícula:' }
     ];
 
@@ -66,5 +67,14 @@ namespace TABLES {
     export const DIRECTORS_DATA_TABLE: col[] = [
         { name: 'area', data_type: 'string', verbose_name: 'Área' },
         { name: 'name', data_type: 'string', verbose_name: 'Nombre' }
+    ];
+
+    export const HISTORY_TABLE: col[] = [
+        { name: 'datetime', data_type: 'datetime', verbose_name: 'Marca temporal' },
+        { name: 'email', data_type: 'string', verbose_name: 'Dirección de correo electrónico' },
+        { name: 'name', data_type: 'string', verbose_name: 'Nombre completo del alumno:' },
+        { name: 'enrollment', data_type: 'string', verbose_name: 'Matrícula:' },
+        { name: 'career', data_type: 'string', verbose_name: 'Matrícula:' }
+        { name: 'url', data_type: 'string', verbose_name: 'URL' }
     ];
 }

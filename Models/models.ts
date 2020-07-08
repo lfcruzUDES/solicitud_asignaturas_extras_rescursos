@@ -52,8 +52,8 @@ namespace Models {
     export function DirectorsDataModel() {
         class DirectorsData extends SHEET.ModelSheet {
             id_url_booK = SETTINGS.BOOK;
-            sheet_name = SETTINGS.SHEET_DIRECTORS_DATA;
-            cols = TABLES.SHEET_DIRECTORS_DATA;
+            sheet_name = SETTINGS.SHEET_HISTORY;
+            cols = TABLES.DIRECTORS_DATA_TABLE;
 
             constructor() {
                 super();
@@ -65,5 +65,19 @@ namespace Models {
         return new DirectorsData();
     }
 
+    export function HistoryModel() {
+        class HistoryData extends SHEET.ModelSheet {
+            id_url_booK = SETTINGS.BOOK;
+            sheet_name = SETTINGS.SHEET_DIRECTORS_DATA;
+            cols = TABLES.HISTORY_TABLE;
 
+            constructor() {
+                super();
+                this.make();
+            }
+
+        }
+
+        return new HistoryData();
+    }
 }

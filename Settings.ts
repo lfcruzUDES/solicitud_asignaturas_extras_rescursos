@@ -2,8 +2,9 @@ namespace SETTINGS {
 
     export const BOOK = 'https://docs.google.com/spreadsheets/d/1aUyxHQenmUM1o4D0Ebzs8Bk2DCrwCyhFM4SYzFBVVVU/edit';
     export const SHEET_RESPONSES = 'Respuestas';
-    export const SHEET_NOTIFICATION_DATA = 'Datos para notificación';
+    export const SHEET_NOTIFICATION_DATA = 'Coordinadores';
     export const SHEET_DIRECTORS_DATA = 'Directores';
+    export const SHEET_HISTORY = 'Historial';
 
     export const CAREERS_NAMES_SHORT = ['DI', 'GST', 'IMA', 'NTR'];
     export const SUBJECTS_BY_CAREER = 5;
