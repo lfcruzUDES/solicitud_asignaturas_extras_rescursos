@@ -52,7 +52,7 @@ namespace Models {
     export function DirectorsDataModel() {
         class DirectorsData extends SHEET.ModelSheet {
             id_url_booK = SETTINGS.BOOK;
-            sheet_name = SETTINGS.SHEET_HISTORY;
+            sheet_name = SETTINGS.SHEET_DIRECTORS_DATA;
             cols = TABLES.DIRECTORS_DATA_TABLE;
 
             constructor() {
@@ -65,10 +65,13 @@ namespace Models {
         return new DirectorsData();
     }
 
+    /**
+     * Modelo de la tabla de historial.
+     */
     export function HistoryModel() {
         class HistoryData extends SHEET.ModelSheet {
             id_url_booK = SETTINGS.BOOK;
-            sheet_name = SETTINGS.SHEET_DIRECTORS_DATA;
+            sheet_name = SETTINGS.SHEET_HISTORY;
             cols = TABLES.HISTORY_TABLE;
 
             constructor() {

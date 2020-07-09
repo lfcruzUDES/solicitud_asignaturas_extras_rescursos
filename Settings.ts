@@ -29,4 +29,10 @@ namespace SETTINGS {
         academic_director: '',
         administrative_director: ''
     }
+
+    /**
+     * EMAILS DATA
+     */
+    export const EMAIL_SUBJECT = 'UDES Universidad | Nueva solicitud de asignaturas extras/recursos';
+    export const EMAIL_BODY_FILE = 'Templates/Emails/base'
 }

@@ -53,7 +53,7 @@ namespace TABLES {
     }
 
     /**
-     * Tabla de la hoja de Correos de notificación.
+     * Tabla de la hoja de coordinadores.
      */
     export const NOTIFICATION_DATA_TABLE: col[] = [
         { name: 'career', data_type: 'string', verbose_name: 'Oferta académica' },
@@ -74,7 +74,7 @@ namespace TABLES {
         { name: 'email', data_type: 'string', verbose_name: 'Dirección de correo electrónico' },
         { name: 'name', data_type: 'string', verbose_name: 'Nombre completo del alumno:' },
         { name: 'enrollment', data_type: 'string', verbose_name: 'Matrícula:' },
-        { name: 'career', data_type: 'string', verbose_name: 'Matrícula:' }
+        { name: 'career', data_type: 'string', verbose_name: 'Matrícula:' },
         { name: 'url', data_type: 'string', verbose_name: 'URL' }
     ];
 }
