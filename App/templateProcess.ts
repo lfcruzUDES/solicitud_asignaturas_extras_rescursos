@@ -37,6 +37,8 @@ namespace TemplateProcess {
             template_data_reemplace(document, full_marks)
             history.create(history_data);
             SEND.noti(career_data.email, history_data);
+            request.datas.status = true;
+            request.save();
         }
 
     }
@@ -87,9 +89,14 @@ namespace TemplateProcess {
         for (const career of SETTINGS.CAREERS_NAMES_SHORT) {
             if (datas[`${career}1`]) {
                 for (let i = 0; i < SETTINGS.SUBJECTS_BY_CAREER; i++) {
-                    let subject_data = datas[`${career}${i + 1}`].split('-');
-                    subjects[`id${i + 1}`] = subject_data[0] ? subject_data[0].trim() : '';
-                    subjects[`subject${i + 1}`] = subject_data[1] ? subject_data[1].trim() : '';
+                    let subject_data = <[]>datas[`${career}${i + 1}`].split('-');
+                    if (subject_data.length > 1) {
+                        subjects[`id${i + 1}`] = subject_data[0] ? subject_data[0].trim() : '';
+                        subjects[`subject${i + 1}`] = subject_data[1] ? subject_data[1].trim() : '';
+                    } else {
+                        subjects[`id${i + 1}`] = '';
+                        subjects[`subject${i + 1}`] = subject_data[0] ? subject_data[0].trim() : '';
+                    }
                 }
             }
         }
