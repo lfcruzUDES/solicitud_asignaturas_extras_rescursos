@@ -3,7 +3,7 @@ namespace SETTINGS {
 
   // Para desarrollo
   export const BOOK =
-    "https://docs.google.com/spreadsheets/d/1O1dWAUDzBbBamwBgn3b5zyL6R4aeq5QmcQXkn2UAwAc/edit";
+    "https://docs.google.com/spreadsheets/d/1aUyxHQenmUM1o4D0Ebzs8Bk2DCrwCyhFM4SYzFBVVVU/edit";
   export const SHEET_RESPONSES = "Respuestas";
   export const SHEET_NOTIFICATION_DATA = "Coordinadores";
   export const SHEET_DIRECTORS_DATA = "Directores";
