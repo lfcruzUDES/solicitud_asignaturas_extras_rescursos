@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/lfcruzUDES/solicitud_asignaturas_extras_rescursos#readme",
   "dependencies": {
-    "@types/google-apps-script": "^1.0.14"
+    "@types/google-apps-script": "^1.0.57"
   }
 }
